@@ -1,0 +1,70 @@
+html{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 32px;
+    font-family: Roboto Mono;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    color:white;
+}
+img{
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
+    display: inline-block;
+}
+nav{
+text-align:center;
+padding: 6% 0% 4% 0%;
+}
+
+.plan{
+    display:inline-block;
+    color:white;
+    border-radius: 25px;
+    background: #FF764E;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.learn{
+    display:inline-block;
+    color: white;
+    border-radius: 25px;
+    background: #5ED3EB;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.get{
+    display:inline-block;
+    color: white;
+    border-radius: 25px;
+    background: #FFCD69;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+h1.park{
+    font-family: Chelsea Market;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.main{
+    background-color: #DDB9A3;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
