@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
+
 .top h2{
     display: inline-block;
     font-size: 80%;
@@ -53,6 +54,14 @@ h1, h2, h3, h4, h5, h6{
     font-family: Roboto Mono;
 }
 
+.top h2:hover{
+  color:red;
+}
+
+.top h1:hover{
+  background-color: yellow;
+  text-transform: uppercase;
+}
 
 
 nav{
@@ -95,10 +104,12 @@ padding: 6% 0% 4% 0%;
   text-align: center;
 }
 
-.bus{
+/* .bus{
     width: 50px;
     margin: 0 53% 2%; 
-}
+} */
+
+
 
 .fireimg{
   width: 3%;
@@ -109,6 +120,7 @@ padding: 6% 0% 4% 0%;
 .main{
     background-color: #DDB9A3;
 }
+
 
 .main p{
   font-family: Roboto Mono;
@@ -157,3 +169,34 @@ p.two{
  img{
    width:300%;
  }
+
+
+
+@keyframes busMove {
+  0%   {left:0px; right:0px;}
+  25%  {left:200px; right:200px;}
+  50%  {left:0px; right:200px;}
+  100% {left:0px; right:0px;}
+}
+
+.bus {
+  width: 50px;
+  margin: 0 53% 2%; 
+  position: relative;
+  animation-name: busMove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.crazy p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hoverL{
+  color:red;
+  font-size: 32px;
+}
+
+.hoverL:hover{
+  text-transform: uppercase;
+}
